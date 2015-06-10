@@ -1,0 +1,38 @@
+{
+  "name": "Fx Deal 294",
+  "children": [
+    {
+      "name": "Entity",
+      "children": [
+        {
+          "name": "BankAccount"
+        }
+      ]
+    },
+    {
+      "name": "Currency",
+      "children": [
+        {
+          "name": "AUD"
+        },
+        {
+          "name": "USD"
+        }
+      ]
+    },
+    {
+      "name": "Counterparty",
+      "children": [
+        {
+          "name": "BankAccount"
+        }
+      ]
+    },
+    {
+      "name": "Instrument"
+    },
+    {
+      "name": "Schedule"
+    }
+  ]
+}

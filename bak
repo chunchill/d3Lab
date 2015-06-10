@@ -1,0 +1,35 @@
+{
+  "name": "Fx Deal 294",
+  "children": [
+    {
+      "name": "Entity",
+      "children": [
+        {
+          "name": "cluster",
+          "children": [
+            {"name": "AgglomerativeCluster", "size": 3938},
+            {"name": "CommunityStructure", "size": 3938},
+            {"name": "HierarchicalCluster", "size": 3938},
+            {"name": "MergeEdge", "size": 3938}
+          ]
+        },
+        {
+          "name": "Counterparty",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3938},
+            {"name": "LinkDistance", "size": 3938},
+            {"name": "MaxFlowMinCut", "size": 3938},
+            {"name": "ShortestPaths", "size": 3938},
+            {"name": "SpanningTree", "size": 3938}
+          ]
+        },
+        {
+          "name": "Instrument",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 3938}
+          ]
+        }
+      ]
+    }
+  ]
+}

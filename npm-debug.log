@@ -1,0 +1,971 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-connect',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'grunt-contrib-connect', null ]
+6 verbose cache add name=undefined spec="grunt-contrib-connect" args=["grunt-contrib-connect",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt-contrib-connect',
+7 verbose parsed url   path: 'grunt-contrib-connect',
+7 verbose parsed url   href: 'grunt-contrib-connect' }
+8 silly lockFile a0cb9c83-grunt-contrib-connect grunt-contrib-connect
+9 verbose lock grunt-contrib-connect C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\a0cb9c83-grunt-contrib-connect.lock
+10 silly lockFile a0cb9c83-grunt-contrib-connect grunt-contrib-connect
+11 silly lockFile a0cb9c83-grunt-contrib-connect grunt-contrib-connect
+12 verbose addNamed [ 'grunt-contrib-connect', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 8d414d07-grunt-contrib-connect grunt-contrib-connect@
+15 verbose lock grunt-contrib-connect@ C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\8d414d07-grunt-contrib-connect.lock
+16 silly addNameRange { name: 'grunt-contrib-connect', range: '*', hasData: false }
+17 verbose url raw grunt-contrib-connect
+18 verbose url resolving [ 'http://registry.cnpmjs.org/', './grunt-contrib-connect' ]
+19 verbose url resolved http://registry.cnpmjs.org/grunt-contrib-connect
+20 info trying registry request attempt 1 at 14:02:51
+21 verbose etag "1415387632000"
+22 http GET http://registry.cnpmjs.org/grunt-contrib-connect
+23 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+24 info trying registry request attempt 2 at 14:03:22
+25 verbose etag "1415387632000"
+26 http GET http://registry.cnpmjs.org/grunt-contrib-connect
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+28 info trying registry request attempt 3 at 14:04:43
+29 verbose etag "1415387632000"
+30 http GET http://registry.cnpmjs.org/grunt-contrib-connect
+31 http 200 http://registry.cnpmjs.org/grunt-contrib-connect
+32 silly registry.get cb [ 200,
+32 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+32 silly registry.get     date: 'Wed, 10 Jun 2015 06:04:43 GMT',
+32 silly registry.get     'content-type': 'application/json; charset=utf-8',
+32 silly registry.get     'transfer-encoding': 'chunked',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-readtime': '17',
+32 silly registry.get     'content-encoding': 'gzip' } ]
+33 silly addNameRange number 2 { name: 'grunt-contrib-connect', range: '*', hasData: true }
+34 silly addNameRange versions [ 'grunt-contrib-connect',
+34 silly addNameRange   [ '0.10.1',
+34 silly addNameRange     '0.10.0',
+34 silly addNameRange     '0.9.0',
+34 silly addNameRange     '0.8.0',
+34 silly addNameRange     '0.7.1',
+34 silly addNameRange     '0.7.0',
+34 silly addNameRange     '0.6.0',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.4.2',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.1.2',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.1.1-rc6',
+34 silly addNameRange     '0.1.0' ] ]
+35 verbose addNamed [ 'grunt-contrib-connect', '0.10.1' ]
+36 verbose addNamed [ '0.10.1', '0.10.1' ]
+37 silly lockFile 48873eff-grunt-contrib-connect-0-10-1 grunt-contrib-connect@0.10.1
+38 verbose lock grunt-contrib-connect@0.10.1 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\48873eff-grunt-contrib-connect-0-10-1.lock
+39 silly lockFile 34b9e823-grunt-contrib-connect-0-10-1-tgz http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz
+40 verbose lock http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\34b9e823-grunt-contrib-connect-0-10-1-tgz.lock
+41 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz',
+41 verbose addRemoteTarball   '669cd85370307d547bdea574c29a0baeb998f516' ]
+42 info retry fetch attempt 1 at 14:04:44
+43 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz
+44 http GET http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz
+45 http 200 http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz
+46 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz
+47 silly lockFile 75d9ea02-t-contrib-connect-0-10-1-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package
+48 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\75d9ea02-t-contrib-connect-0-10-1-package.lock
+49 silly lockFile df270930-84208-0-8916604253463447-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz
+50 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\df270930-84208-0-8916604253463447-tmp-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry CHANGELOG
+55 silly gunzTarPerm extractEntry tasks/connect.js
+56 silly gunzTarPerm extractEntry tasks/certs/ca.crt
+57 silly gunzTarPerm extractEntry tasks/certs/ca.csr
+58 silly gunzTarPerm extractEntry tasks/certs/ca.key
+59 silly gunzTarPerm extractEntry tasks/certs/ca.srl
+60 silly gunzTarPerm extractEntry tasks/certs/server.crt
+61 silly gunzTarPerm extractEntry tasks/certs/server.csr
+62 silly gunzTarPerm extractEntry tasks/certs/server.key
+63 silly gunzTarPerm extractEntry tasks/certs/server.key.org
+64 silly lockFile 75d9ea02-t-contrib-connect-0-10-1-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package
+65 silly lockFile 75d9ea02-t-contrib-connect-0-10-1-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package
+66 silly lockFile df270930-84208-0-8916604253463447-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz
+67 silly lockFile df270930-84208-0-8916604253463447-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916284208-0.8916604253463447\tmp.tgz
+68 silly lockFile 34b9e823-grunt-contrib-connect-0-10-1-tgz http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz
+69 silly lockFile 34b9e823-grunt-contrib-connect-0-10-1-tgz http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz
+70 silly lockFile 48873eff-grunt-contrib-connect-0-10-1 grunt-contrib-connect@0.10.1
+71 silly lockFile 48873eff-grunt-contrib-connect-0-10-1 grunt-contrib-connect@0.10.1
+72 silly lockFile 8d414d07-grunt-contrib-connect grunt-contrib-connect@
+73 silly lockFile 8d414d07-grunt-contrib-connect grunt-contrib-connect@
+74 silly resolved [ { name: 'grunt-contrib-connect',
+74 silly resolved     description: 'Start a connect web server',
+74 silly resolved     version: '0.10.1',
+74 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+74 silly resolved     repository:
+74 silly resolved      { type: 'git',
+74 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-connect' },
+74 silly resolved     licenses: [ [Object] ],
+74 silly resolved     engines: { node: '>=0.10.0' },
+74 silly resolved     scripts: { test: 'grunt test' },
+74 silly resolved     dependencies:
+74 silly resolved      { async: '^0.9.0',
+74 silly resolved        connect: '^2.27.1',
+74 silly resolved        'connect-livereload': '^0.5.0',
+74 silly resolved        opn: '^1.0.0',
+74 silly resolved        portscanner: '^1.0.0' },
+74 silly resolved     devDependencies:
+74 silly resolved      { grunt: '^0.4.5',
+74 silly resolved        'grunt-cli': '^0.1.13',
+74 silly resolved        'grunt-contrib-internal': '^0.4.10',
+74 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+74 silly resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+74 silly resolved     peerDependencies: { grunt: '>=0.4.0' },
+74 silly resolved     keywords: [ 'gruntplugin', 'server', 'connect', 'http' ],
+74 silly resolved     files: [ 'tasks' ],
+74 silly resolved     appveyor_id: '3bp93hbs2rd5lwfd',
+74 silly resolved     readme: '# grunt-contrib-connect v0.10.1 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-connect.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-connect) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/3bp93hbs2rd5lwfd/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-connect/branch/master)\n\n> Start a connect web server\n\n\n\n## Getting Started\nThis plugin requires Grunt `>=0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-connect --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-connect\');\n```\n\n\n\n\n## Connect task\n_Run this task with the `grunt connect` command._\n\nNote that this server only runs as long as grunt is running. Once grunt\'s tasks have completed, the web server stops. This behavior can be changed with the [keepalive](#keepalive) option, and can be enabled ad-hoc by running the task like `grunt connect:keepalive`.\n\nThis task was designed to be used in conjunction with another task that is run immediately afterwards, like the [grunt-contrib-qunit plugin](https://github.com/gruntjs/grunt-contrib-qunit) `qunit` task.\n### Options\n\n#### port\nType: `Integer`  \nDefault: `8000`\n\nThe port on which the webserver will respond. The task will fail if the specified port is already in use (unless [useAvailablePort](#useavailableport) is set). You can use the special values `0` or `\'?\'` to use a system-assigned port.\n\n#### protocol\nType: `String`  \nDefault: `\'http\'`\n\nMay be `\'http\'` or `\'https\'`.\n\n#### hostname\nType: `String`  \nDefault: `\'0.0.0.0\'`\n\nThe hostname on which the webserver can be accessed.\n\nSetting it to `\'*\'`, like \'`0.0.0.0`\', will make the server accessible from any **local** IPv4 address like  `\'127.0.0.1\'` and the IP assigned to an ethernet or wireless interface (like `\'192.168.0.x\'` or `\'10.0.0.x\'`). [More info](http://en.wikipedia.org/wiki/0.0.0.0)\n\nIf [`open`](#open) is set to `true`, the `hostname` setting will be used to generate the URL that is opened by the browser, defaulting to `localhost` if a wildcard hostname was specified.\n\n#### base\nType: `String` or `Array` or `Object`  \nDefault: `\'.\'`\n\n| Type     | Result                                                                                                                                           | Example                                              |\n| ---      | :---                                                                                                                                             | ---                                                  |\n| *String* | The base (or root) directory from which files will be served. Defaults to the project Gruntfile\'s directory.                                     | `\'public\'`                                           |\n| *Array*  | Array of `String` (or `Object`) bases to serve multiple directories. The last base given will be the [directory][] to become browse-able.        | `[\'public\',\'www-root\']`                              |\n| *Object* | Map containing `path` and `options` keys. `options` are passed on to the [connect.static](http://www.senchalabs.org/connect/static.html) module. | `{ path: \'public\', options: { maxAge: 1000*60*5 } }` |\n\n\n#### directory\nType: `String`  \nDefault: `null`\n\nSet to the directory you wish to be browse-able. Used to override the `base` option browse-able directory.\n\n#### keepalive\nType: `Boolean`  \nDefault: `false`\n\nKeep the server alive indefinitely. Note that if this option is enabled, any tasks specified after this task will _never run_. By default, once grunt\'s tasks have completed, the web server stops. This option changes that behavior.\n\nThis option can also be enabled ad-hoc by running the task like `grunt connect:targetname:keepalive`\n\n#### debug\nType: `Boolean`  \nDefault: `false`\n\nSet the `debug` option to true to enable logging instead of using the `--debug` flag.\n\n#### livereload\nType: `Boolean` or `Number`  \nDefault: `false`\n\nSet to `true` or a port number to inject a live reload script tag into your page using [connect-livereload](https://github.com/intesso/connect-livereload).\n\n*This does not perform live reloading. It is intended to be used in tandem with grunt-contrib-watch or another task that will trigger a live reload server upon files changing.*\n\n#### open\nType: `Boolean` or `String` or `Object`  \nDefault: `false`\n\nOpen the served page in your default browser.\n\nThis can be one of the following:\n\n- Specifying `true` opens the default server URL (generated from the [`protocol`](#protocol), [`hostname`](#hostname) and [`port`](#port) settings)\n- Specifying a URL opens that URL\n- Specify an object with the following keys to configure [open](https://www.npmjs.com/package/open) directly:\n\n\t```js\n\t{\n\t  target: \'http://localhost:8000\', // target url to open\n\t  appName: \'open\', // name of the app that opens, ie: open, start, xdg-open\n\t  callback: function() {} // called when the app has opened\n\t}\n\t```\n\n#### useAvailablePort\n  Type: `Boolean`\n  Default: `false`\n\nIf `true` the task will look for the next available port after the set `port` option.\n\n#### onCreateServer\nType: `Function` or `Array`\nDefault: `null`\n\nA function to be called after the server object is created, to allow integrating libraries that need access to connect\'s server object. A Socket.IO example:\n\n```js\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        port: 8000,\n        hostname: \'*\',\n        onCreateServer: function(server, connect, options) {\n          var io = require(\'socket.io\').listen(server);\n          io.sockets.on(\'connection\', function(socket) {\n            // do something with socket\n          });\n        }\n      }\n    }\n  }\n});\n```\n\n#### middleware\nType: `Function` or `Array`\nDefault: `Array` of connect middlewares that use `options.base` for static files and directory browsing\n\nAs an `Array`:\n\n```js\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        middleware: [\n          function myMiddleware(req, res, next) {\n            res.end(\'Hello, world!\');\n          }\n        ],\n      },\n    },\n  },\n});\n```\n\nAs a `function`:\n\n```js\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        middleware: function(connect, options, middlewares) {\n          // inject a custom middleware into the array of default middlewares\n          middlewares.unshift(function(req, res, next) {\n            if (req.url !== \'/hello/world\') return next();\n\n            res.end(\'Hello, world from port #\' + options.port + \'!\');\n          });\n\n          return middlewares;\n        },\n      },\n    },\n  },\n});\n```\n\nLets you add in your own Connect middlewares. This option expects a function that returns an array of middlewares. See the [project Gruntfile][] and [project unit tests][] for a usage example.\n\n[project Gruntfile]: Gruntfile.js\n[project unit tests]: test/connect_test.js\n\n### Usage examples\n\n#### Basic Use\nIn this example, `grunt connect` (or more verbosely, `grunt connect:server`) will start a static web server at `http://localhost:9001/`, with its base path set to the `www-root` directory relative to the gruntfile, and any tasks run afterwards will be able to access it.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        port: 9001,\n        base: \'www-root\'\n      }\n    }\n  }\n});\n```\n\nIf you want your web server to use the default options, just omit the `options` object. You still need to specify a target (`uses_defaults` in this example), but the target\'s configuration object can otherwise be empty or nonexistent. In this example, `grunt connect` (or more verbosely, `grunt connect:uses_defaults`) will start a static web server using the default options.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    uses_defaults: {}\n  }\n});\n```\n\n#### Multiple Servers\nYou can specify multiple servers to be run alone or simultaneously by creating a target for each server. In this example, running either `grunt connect:site1` or `grunt connect:site2` will  start the appropriate web server, but running `grunt connect` will run _both_. Note that any server for which the [keepalive](#keepalive) option is specified will prevent _any_ task or target from running after it.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    site1: {\n      options: {\n        port: 9000,\n        base: \'www-roots/site1\'\n      }\n    },\n    site2: {\n      options: {\n        port: 9001,\n        base: \'www-roots/site2\'\n      }\n    }\n  }\n});\n```\n\n#### Connect.static Options\nYou can specify options to be passed to each instance of the [connect.static](http://www.senchalabs.org/connect/static.html) module:\n\n```js\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        port: 8000,\n        base: {\n          path: \'www-root\',\n          options: {\n            index: \'somedoc.html\',\n            maxAge: 300000\n          }\n        }\n      }\n    }\n  }\n});\n```\n\n\n\n#### \n\n#### Roll Your Own\nLike the [Basic Use](#basic-use) example, this example will start a static web server at `http://localhost:9001/`, with its base path set to the `www-root` directory relative to the gruntfile. Unlike the other example, this is done by creating a brand new task. in fact, this plugin isn\'t even installed!\n\n```javascript\n// Project configuration.\ngrunt.initConfig({ /* Nothing needed here! */ });\n\n// After running "npm install connect --save-dev" to add connect as a dev\n// dependency of your project, you can require it in your gruntfile with:\nvar connect = require(\'connect\');\n\n// Now you can define a "connect" task that starts a webserver, using the\n// connect lib, with whatever options and configuration you need:\ngrunt.registerTask(\'connect\', \'Start a custom static web server.\', function() {\n  grunt.log.writeln(\'Starting static web server in "www-root" on port 9001.\');\n  connect(connect.static(\'www-root\')).listen(9001);\n});\n```\n\n#### Support for HTTPS\n\nA default certificate authority, certificate and key file are provided and pre-\nconfigured for use when `protocol` has been set to `https`.\n\nNOTE: No passphrase set for the certificate.\nIf you are getting warnings in Google Chrome, add \'server.crt\' (from \'node_modules/tasks/certs\')\nto your keychain.\nIn OS X, after you add \'server.crt\', right click on the certificate,\nselect \'Get Info\' - \'Trust\' - \'Always Trust\', close window, restart Chrome.\n\nFor HTTPS livereload with [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) \n see the last example [here](https://github.com/gruntjs/grunt-contrib-watch#optionslivereload).\n\n###### Advanced HTTPS config\n\nIf the default certificate setup is unsuitable for your environment, OpenSSL\ncan be used to create a set of self-signed certificates with a local ca root.\n\n```shell\n### Create ca.key, use a password phrase when asked\n### When asked \'Common Name (e.g. server FQDN or YOUR name) []:\' use your hostname, i.e \'mysite.dev\'\nopenssl genrsa -des3 -out ca.key 1024\nopenssl req -new -key ca.key -out ca.csr\nopenssl x509 -req -days 365 -in ca.csr -out ca.crt -signkey ca.key\n\n### Create server certificate\nopenssl genrsa -des3 -out server.key 1024\nopenssl req -new -key server.key -out server.csr\n\n### Remove password from the certificate\ncp server.key server.key.org\nopenssl rsa -in server.key.org -out server.key\n\n### Generate self-siged certificate\nopenssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt\n```\n\nFor more details on the various options that can be set when configuring SSL,\nplease see the Node documentation for [TLS][].\n\nGrunt configuration would become\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        protocol: \'https\',\n        port: 8443,\n        key: grunt.file.read(\'server.key\').toString(),\n        cert: grunt.file.read(\'server.crt\').toString(),\n        ca: grunt.file.read(\'ca.crt\').toString()\n      },\n    },\n  },\n});\n```\n\n[TLS]: http://nodejs.org/api/tls.html#tls_tls_createserver_options_secureconnectionlistener\n\n#### Grunt Events\nThe connect plugin will emit a grunt event, `connect.{taskName}.listening`, once the server has started. You can listen for this event to run things against a keepalive server, for example:\n\n```javascript\ngrunt.registerTask(\'jasmine-server\', \'start web server for jasmine tests in browser\', function() {\n  grunt.task.run(\'jasmine:tests:build\');\n\n  grunt.event.once(\'connect.tests.listening\', function(host, port) {\n    var specRunnerUrl = \'http://\' + host + \':\' + port + \'/_SpecRunner.html\';\n    grunt.log.writeln(\'Jasmine specs available at: \' + specRunnerUrl);\n    require(\'open\')(specRunnerUrl);\n  });\n\n  grunt.task.run(\'connect:tests:keepalive\');\n});\n```\n\n\n## Release History\n\n * 2015-04-03   v0.10.1   fixes npm corruption issue\n * 2015-04-03   v0.10.0   node 0.12 fixes doc updates fixes port finding other fixes\n * 2014-11-07   v0.9.0   Adds routable middleware. Switch to `opn` as it fixes some Linux issues. Add support for connect.static instance options.\n * 2014-06-09   v0.8.0   Update connect and connect-livereload.\n * 2014-02-27   v0.7.1   Fixes issue with the \'*\' hostname option.\n * 2014-02-18   v0.7.0   Update connect to ~2.13.0. Default hostname switched to \'0.0.0.0\'. Modified options.middleware to accept an array or a function.\n * 2013-12-29   v0.6.0   Open options.hostname if provided. Update connect-livereload to ~0.3.0. Update connect to ~2.12.0. Use well-formed ssl certificates. Support all options of open. Make directory browseable when base is a string.\n * 2013-09-05   v0.5.0   Add \'open\' option.\n * 2013-09-05   v0.4.2   Un-normalize options.base as it should be a string or an array as the user has set. Fix setting target hostname option.\n * 2013-09-02   v0.4.1   Browse-able directory is the last item supplied to bases. Added directory option to override browse-able directory.\n * 2013-09-01   v0.4.0   Fix logging of which server address. Ability to set multiple bases. Event emitted when server starts listening. Support for HTTPS. debug option added to display debug logging like the --debug flag. livereload option added to inject a livereload snippet into the page.\n * 2013-04-10   v0.3.0   Add ability to listen on system-assigned port.\n * 2013-03-07   v0.2.0   Upgrade connect dependency.\n * 2013-02-17   v0.1.2   Ensure Gruntfile.js is included on npm.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5.\n * 2012-11-01   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com)\n\n*This file was generated on Fri Apr 03 2015 10:53:18.*\n',
+74 silly resolved     readmeFilename: 'README.md',
+74 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-connect/issues' },
+74 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-connect',
+74 silly resolved     _id: 'grunt-contrib-connect@0.10.1',
+74 silly resolved     _shasum: '669cd85370307d547bdea574c29a0baeb998f516',
+74 silly resolved     _from: 'grunt-contrib-connect@',
+74 silly resolved     _resolved: 'http://registry.cnpmjs.org/grunt-contrib-connect/download/grunt-contrib-connect-0.10.1.tgz' } ]
+75 info install grunt-contrib-connect@0.10.1 into C:\Users\Jasper.Qiu\WebstormProjects\d3Lab
+76 info installOne grunt-contrib-connect@0.10.1
+77 info C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect unbuild
+78 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package.tgz
+79 silly lockFile 1398cb73-de-modules-grunt-contrib-connect tar://C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect
+80 verbose lock tar://C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\1398cb73-de-modules-grunt-contrib-connect.lock
+81 silly lockFile b2da71c7-ntrib-connect-0-10-1-package-tgz tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package.tgz
+82 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\b2da71c7-ntrib-connect-0-10-1-package-tgz.lock
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry CHANGELOG
+87 silly gunzTarPerm extractEntry tasks/connect.js
+88 silly gunzTarPerm extractEntry tasks/certs/ca.crt
+89 silly gunzTarPerm extractEntry tasks/certs/ca.csr
+90 silly gunzTarPerm extractEntry tasks/certs/ca.key
+91 silly gunzTarPerm extractEntry tasks/certs/ca.srl
+92 silly gunzTarPerm extractEntry tasks/certs/server.crt
+93 silly gunzTarPerm extractEntry tasks/certs/server.csr
+94 silly gunzTarPerm extractEntry tasks/certs/server.key
+95 silly gunzTarPerm extractEntry tasks/certs/server.key.org
+96 silly lockFile 1398cb73-de-modules-grunt-contrib-connect tar://C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect
+97 silly lockFile 1398cb73-de-modules-grunt-contrib-connect tar://C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect
+98 silly lockFile b2da71c7-ntrib-connect-0-10-1-package-tgz tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package.tgz
+99 silly lockFile b2da71c7-ntrib-connect-0-10-1-package-tgz tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\grunt-contrib-connect\0.10.1\package.tgz
+100 info preinstall grunt-contrib-connect@0.10.1
+101 verbose readDependencies using package.json deps
+102 verbose readDependencies using package.json deps
+103 verbose cache add [ 'async@^0.9.0', null ]
+104 verbose cache add name=undefined spec="async@^0.9.0" args=["async@^0.9.0",null]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: 'async@^0.9.0',
+105 verbose parsed url   path: 'async@^0.9.0',
+105 verbose parsed url   href: 'async@^0.9.0' }
+106 verbose cache add name="async" spec="^0.9.0" args=["async","^0.9.0"]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '^0.9.0',
+107 verbose parsed url   path: '^0.9.0',
+107 verbose parsed url   href: '^0.9.0' }
+108 verbose addNamed [ 'async', '^0.9.0' ]
+109 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+110 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+111 verbose lock async@^0.9.0 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\7f39d2c2-async-0-9-0.lock
+112 verbose cache add [ 'connect@^2.27.1', null ]
+113 verbose cache add name=undefined spec="connect@^2.27.1" args=["connect@^2.27.1",null]
+114 verbose parsed url { protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: 'connect@^2.27.1',
+114 verbose parsed url   path: 'connect@^2.27.1',
+114 verbose parsed url   href: 'connect@^2.27.1' }
+115 verbose cache add name="connect" spec="^2.27.1" args=["connect","^2.27.1"]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: '^2.27.1',
+116 verbose parsed url   path: '^2.27.1',
+116 verbose parsed url   href: '^2.27.1' }
+117 verbose addNamed [ 'connect', '^2.27.1' ]
+118 verbose addNamed [ null, '>=2.27.1-0 <3.0.0-0' ]
+119 silly lockFile 4b24c20c-connect-2-27-1 connect@^2.27.1
+120 verbose lock connect@^2.27.1 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\4b24c20c-connect-2-27-1.lock
+121 verbose cache add [ 'connect-livereload@^0.5.0', null ]
+122 verbose cache add name=undefined spec="connect-livereload@^0.5.0" args=["connect-livereload@^0.5.0",null]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: 'connect-livereload@^0.5.0',
+123 verbose parsed url   path: 'connect-livereload@^0.5.0',
+123 verbose parsed url   href: 'connect-livereload@^0.5.0' }
+124 verbose cache add name="connect-livereload" spec="^0.5.0" args=["connect-livereload","^0.5.0"]
+125 verbose parsed url { protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: '^0.5.0',
+125 verbose parsed url   path: '^0.5.0',
+125 verbose parsed url   href: '^0.5.0' }
+126 verbose addNamed [ 'connect-livereload', '^0.5.0' ]
+127 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+128 silly lockFile 0eef2fe7-connect-livereload-0-5-0 connect-livereload@^0.5.0
+129 verbose lock connect-livereload@^0.5.0 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\0eef2fe7-connect-livereload-0-5-0.lock
+130 verbose cache add [ 'opn@^1.0.0', null ]
+131 verbose cache add name=undefined spec="opn@^1.0.0" args=["opn@^1.0.0",null]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'opn@^1.0.0',
+132 verbose parsed url   path: 'opn@^1.0.0',
+132 verbose parsed url   href: 'opn@^1.0.0' }
+133 verbose cache add name="opn" spec="^1.0.0" args=["opn","^1.0.0"]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '^1.0.0',
+134 verbose parsed url   path: '^1.0.0',
+134 verbose parsed url   href: '^1.0.0' }
+135 verbose addNamed [ 'opn', '^1.0.0' ]
+136 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+137 silly lockFile 3ddbaf46-opn-1-0-0 opn@^1.0.0
+138 verbose lock opn@^1.0.0 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\3ddbaf46-opn-1-0-0.lock
+139 verbose cache add [ 'portscanner@^1.0.0', null ]
+140 verbose cache add name=undefined spec="portscanner@^1.0.0" args=["portscanner@^1.0.0",null]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: 'portscanner@^1.0.0',
+141 verbose parsed url   path: 'portscanner@^1.0.0',
+141 verbose parsed url   href: 'portscanner@^1.0.0' }
+142 verbose cache add name="portscanner" spec="^1.0.0" args=["portscanner","^1.0.0"]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '^1.0.0',
+143 verbose parsed url   path: '^1.0.0',
+143 verbose parsed url   href: '^1.0.0' }
+144 verbose addNamed [ 'portscanner', '^1.0.0' ]
+145 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+146 silly lockFile 124fc361-portscanner-1-0-0 portscanner@^1.0.0
+147 verbose lock portscanner@^1.0.0 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\124fc361-portscanner-1-0-0.lock
+148 silly addNameRange { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+149 silly addNameRange { name: 'connect', range: '>=2.27.1-0 <3.0.0-0', hasData: false }
+150 silly addNameRange { name: 'connect-livereload',
+150 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+150 silly addNameRange   hasData: false }
+151 silly addNameRange { name: 'opn', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+152 silly addNameRange { name: 'portscanner',
+152 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+152 silly addNameRange   hasData: false }
+153 verbose url raw portscanner
+154 verbose url resolving [ 'http://registry.cnpmjs.org/', './portscanner' ]
+155 verbose url resolved http://registry.cnpmjs.org/portscanner
+156 info trying registry request attempt 1 at 14:04:46
+157 verbose etag "1403388146000"
+158 http GET http://registry.cnpmjs.org/portscanner
+159 verbose url raw connect
+160 verbose url resolving [ 'http://registry.cnpmjs.org/', './connect' ]
+161 verbose url resolved http://registry.cnpmjs.org/connect
+162 info trying registry request attempt 1 at 14:04:46
+163 verbose etag "1416793105000"
+164 http GET http://registry.cnpmjs.org/connect
+165 verbose url raw connect-livereload
+166 verbose url resolving [ 'http://registry.cnpmjs.org/', './connect-livereload' ]
+167 verbose url resolved http://registry.cnpmjs.org/connect-livereload
+168 info trying registry request attempt 1 at 14:04:46
+169 verbose etag "1416946679000"
+170 http GET http://registry.cnpmjs.org/connect-livereload
+171 verbose url raw opn
+172 verbose url resolving [ 'http://registry.cnpmjs.org/', './opn' ]
+173 verbose url resolved http://registry.cnpmjs.org/opn
+174 info trying registry request attempt 1 at 14:04:46
+175 verbose etag "6VBB5B3JNJSFTUSVND7LS1XI0"
+176 http GET http://registry.cnpmjs.org/opn
+177 verbose url raw async
+178 verbose url resolving [ 'http://registry.cnpmjs.org/', './async' ]
+179 verbose url resolved http://registry.cnpmjs.org/async
+180 info trying registry request attempt 1 at 14:04:46
+181 http GET http://registry.cnpmjs.org/async
+182 http 200 http://registry.cnpmjs.org/async
+183 silly registry.get cb [ 200,
+183 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+183 silly registry.get     date: 'Wed, 10 Jun 2015 06:04:46 GMT',
+183 silly registry.get     'content-type': 'application/json; charset=utf-8',
+183 silly registry.get     'transfer-encoding': 'chunked',
+183 silly registry.get     connection: 'keep-alive',
+183 silly registry.get     'x-readtime': '116',
+183 silly registry.get     'content-encoding': 'gzip' } ]
+184 silly addNameRange number 2 { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+185 silly addNameRange versions [ 'async',
+185 silly addNameRange   [ '1.2.1',
+185 silly addNameRange     '1.1.1',
+185 silly addNameRange     '1.2.0',
+185 silly addNameRange     '1.1.0',
+185 silly addNameRange     '1.0.0',
+185 silly addNameRange     '0.9.2',
+185 silly addNameRange     '0.9.0',
+185 silly addNameRange     '0.8.0',
+185 silly addNameRange     '0.7.0',
+185 silly addNameRange     '0.6.2',
+185 silly addNameRange     '0.6.1',
+185 silly addNameRange     '0.6.0',
+185 silly addNameRange     '0.5.0',
+185 silly addNameRange     '0.4.1',
+185 silly addNameRange     '0.4.0',
+185 silly addNameRange     '0.3.0',
+185 silly addNameRange     '0.2.10',
+185 silly addNameRange     '0.2.9',
+185 silly addNameRange     '0.2.8',
+185 silly addNameRange     '0.2.7',
+185 silly addNameRange     '0.2.6',
+185 silly addNameRange     '0.2.5',
+185 silly addNameRange     '0.2.4',
+185 silly addNameRange     '0.2.3',
+185 silly addNameRange     '0.2.2',
+185 silly addNameRange     '0.2.1',
+185 silly addNameRange     '0.2.0',
+185 silly addNameRange     '0.1.22',
+185 silly addNameRange     '0.1.21',
+185 silly addNameRange     '0.1.20',
+185 silly addNameRange     '0.1.19',
+185 silly addNameRange     '0.1.18',
+185 silly addNameRange     '0.1.17',
+185 silly addNameRange     '0.1.16',
+185 silly addNameRange     '0.1.15',
+185 silly addNameRange     '0.1.14',
+185 silly addNameRange     '0.1.13',
+185 silly addNameRange     '0.1.12',
+185 silly addNameRange     '0.1.11',
+185 silly addNameRange     '0.1.10',
+185 silly addNameRange     '0.1.9',
+185 silly addNameRange     '0.1.8',
+185 silly addNameRange     '0.1.2',
+185 silly addNameRange     '0.1.7',
+185 silly addNameRange     '0.1.6',
+185 silly addNameRange     '0.1.5',
+185 silly addNameRange     '0.1.4',
+185 silly addNameRange     '0.1.3',
+185 silly addNameRange     '0.1.1',
+185 silly addNameRange     '0.1.0' ] ]
+186 verbose addNamed [ 'async', '0.9.2' ]
+187 verbose addNamed [ '0.9.2', '0.9.2' ]
+188 silly lockFile c32a6c4e-async-0-9-2 async@0.9.2
+189 verbose lock async@0.9.2 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\c32a6c4e-async-0-9-2.lock
+190 silly lockFile f238bb86-g-async-download-async-0-9-2-tgz http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+191 verbose lock http://registry.cnpmjs.org/async/download/async-0.9.2.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\f238bb86-g-async-download-async-0-9-2-tgz.lock
+192 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/async/download/async-0.9.2.tgz',
+192 verbose addRemoteTarball   'aea74d5e61c1f899613bf64bda66d4c78f2fd17d' ]
+193 info retry fetch attempt 1 at 14:04:47
+194 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+195 http GET http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+196 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+197 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+198 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+199 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+200 error fetch failed http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+201 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+202 info trying registry request attempt 2 at 14:05:17
+203 verbose etag "1403388146000"
+204 http GET http://registry.cnpmjs.org/portscanner
+205 info trying registry request attempt 2 at 14:05:17
+206 verbose etag "1416946679000"
+207 http GET http://registry.cnpmjs.org/connect-livereload
+208 info trying registry request attempt 2 at 14:05:17
+209 verbose etag "6VBB5B3JNJSFTUSVND7LS1XI0"
+210 http GET http://registry.cnpmjs.org/opn
+211 info trying registry request attempt 2 at 14:05:17
+212 verbose etag "1416793105000"
+213 http GET http://registry.cnpmjs.org/connect
+214 http 304 http://registry.cnpmjs.org/portscanner
+215 silly registry.get cb [ 304,
+215 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+215 silly registry.get     date: 'Wed, 10 Jun 2015 06:05:17 GMT',
+215 silly registry.get     connection: 'keep-alive',
+215 silly registry.get     etag: '"1403388146000"',
+215 silly registry.get     'x-readtime': '3' } ]
+216 verbose etag portscanner from cache
+217 silly addNameRange number 2 { name: 'portscanner',
+217 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+217 silly addNameRange   hasData: true }
+218 silly addNameRange versions [ 'portscanner',
+218 silly addNameRange   [ '1.0.0',
+218 silly addNameRange     '0.2.3',
+218 silly addNameRange     '0.2.2',
+218 silly addNameRange     '0.2.1',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.1.3',
+218 silly addNameRange     '0.1.2',
+218 silly addNameRange     '0.1.1',
+218 silly addNameRange     '0.1.0' ] ]
+219 verbose addNamed [ 'portscanner', '1.0.0' ]
+220 verbose addNamed [ '1.0.0', '1.0.0' ]
+221 silly lockFile 3fadcf78-portscanner-1-0-0 portscanner@1.0.0
+222 verbose lock portscanner@1.0.0 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\3fadcf78-portscanner-1-0-0.lock
+223 silly lockFile 0799297c-r-download-portscanner-1-0-0-tgz http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz
+224 verbose lock http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\0799297c-r-download-portscanner-1-0-0-tgz.lock
+225 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz',
+225 verbose addRemoteTarball   '3b5cfe393828b5160abc600e6270ebc2f1590558' ]
+226 info retry fetch attempt 1 at 14:05:18
+227 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz
+228 http GET http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz
+229 http 200 http://registry.cnpmjs.org/connect-livereload
+230 silly registry.get cb [ 200,
+230 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+230 silly registry.get     date: 'Wed, 10 Jun 2015 06:05:18 GMT',
+230 silly registry.get     'content-type': 'application/json; charset=utf-8',
+230 silly registry.get     'transfer-encoding': 'chunked',
+230 silly registry.get     connection: 'keep-alive',
+230 silly registry.get     'x-readtime': '13',
+230 silly registry.get     'content-encoding': 'gzip' } ]
+231 silly addNameRange number 2 { name: 'connect-livereload',
+231 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+231 silly addNameRange   hasData: true }
+232 silly addNameRange versions [ 'connect-livereload',
+232 silly addNameRange   [ '0.5.3',
+232 silly addNameRange     '0.5.2',
+232 silly addNameRange     '0.5.1',
+232 silly addNameRange     '0.5.0',
+232 silly addNameRange     '0.4.1',
+232 silly addNameRange     '0.4.0',
+232 silly addNameRange     '0.3.2',
+232 silly addNameRange     '0.3.1',
+232 silly addNameRange     '0.3.0',
+232 silly addNameRange     '0.2.0',
+232 silly addNameRange     '0.1.4',
+232 silly addNameRange     '0.1.3',
+232 silly addNameRange     '0.1.2',
+232 silly addNameRange     '0.1.1',
+232 silly addNameRange     '0.1.0',
+232 silly addNameRange     '0.0.3',
+232 silly addNameRange     '0.0.2' ] ]
+233 verbose addNamed [ 'connect-livereload', '0.5.3' ]
+234 verbose addNamed [ '0.5.3', '0.5.3' ]
+235 silly lockFile cf0a7468-connect-livereload-0-5-3 connect-livereload@0.5.3
+236 verbose lock connect-livereload@0.5.3 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\cf0a7468-connect-livereload-0-5-3.lock
+237 silly lockFile 80964703-oad-connect-livereload-0-5-3-tgz http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz
+238 verbose lock http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\80964703-oad-connect-livereload-0-5-3-tgz.lock
+239 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz',
+239 verbose addRemoteTarball   'cd2040a959b1d9caf94fec6c05a775b813b43f6e' ]
+240 info retry fetch attempt 1 at 14:05:18
+241 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz
+242 http GET http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz
+243 info retry fetch attempt 2 at 14:05:18
+244 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+245 http GET http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+246 http 200 http://registry.cnpmjs.org/connect
+247 silly registry.get cb [ 200,
+247 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+247 silly registry.get     date: 'Wed, 10 Jun 2015 06:05:18 GMT',
+247 silly registry.get     'content-type': 'application/json; charset=utf-8',
+247 silly registry.get     'transfer-encoding': 'chunked',
+247 silly registry.get     connection: 'keep-alive',
+247 silly registry.get     'x-readtime': '81',
+247 silly registry.get     'content-encoding': 'gzip' } ]
+248 silly addNameRange number 2 { name: 'connect', range: '>=2.27.1-0 <3.0.0-0', hasData: true }
+249 silly addNameRange versions [ 'connect',
+249 silly addNameRange   [ '2.29.2',
+249 silly addNameRange     '3.3.5',
+249 silly addNameRange     '2.29.1',
+249 silly addNameRange     '2.29.0',
+249 silly addNameRange     '2.28.3',
+249 silly addNameRange     '2.28.2',
+249 silly addNameRange     '2.28.1',
+249 silly addNameRange     '3.3.4',
+249 silly addNameRange     '2.28.0',
+249 silly addNameRange     '2.27.6',
+249 silly addNameRange     '2.27.5',
+249 silly addNameRange     '2.27.4',
+249 silly addNameRange     '3.3.3',
+249 silly addNameRange     '2.27.3',
+249 silly addNameRange     '3.3.2',
+249 silly addNameRange     '2.27.2',
+249 silly addNameRange     '3.3.1',
+249 silly addNameRange     '2.27.1',
+249 silly addNameRange     '3.3.0',
+249 silly addNameRange     '2.27.0',
+249 silly addNameRange     '2.26.6',
+249 silly addNameRange     '2.26.5',
+249 silly addNameRange     '2.26.4',
+249 silly addNameRange     '2.26.3',
+249 silly addNameRange     '2.26.2',
+249 silly addNameRange     '2.26.1',
+249 silly addNameRange     '3.2.0',
+249 silly addNameRange     '2.26.0',
+249 silly addNameRange     '2.25.10',
+249 silly addNameRange     '2.25.9',
+249 silly addNameRange     '2.25.8',
+249 silly addNameRange     '2.25.7',
+249 silly addNameRange     '2.25.6',
+249 silly addNameRange     '2.25.5',
+249 silly addNameRange     '3.1.1',
+249 silly addNameRange     '2.25.4',
+249 silly addNameRange     '2.25.3',
+249 silly addNameRange     '2.25.2',
+249 silly addNameRange     '2.25.1',
+249 silly addNameRange     '2.25.0',
+249 silly addNameRange     '2.24.3',
+249 silly addNameRange     '2.24.2',
+249 silly addNameRange     '2.24.1',
+249 silly addNameRange     '3.1.0',
+249 silly addNameRange     '2.24.0',
+249 silly addNameRange     '3.0.2',
+249 silly addNameRange     '2.23.0',
+249 silly addNameRange     '2.22.0',
+249 silly addNameRange     '2.21.1',
+249 silly addNameRange     '2.21.0',
+249 silly addNameRange     '3.0.1',
+249 silly addNameRange     '2.20.2',
+249 silly addNameRange     '2.20.1',
+249 silly addNameRange     '2.20.0',
+249 silly addNameRange     '2.19.6',
+249 silly addNameRange     '2.19.5',
+249 silly addNameRange     '2.19.4',
+249 silly addNameRange     '2.19.3',
+249 silly addNameRange     '2.19.2',
+249 silly addNameRange     '2.19.1',
+249 silly addNameRange     '2.19.0',
+249 silly addNameRange     '3.0.0',
+249 silly addNameRange     '2.18.0',
+249 silly addNameRange     '2.17.3',
+249 silly addNameRange     '2.17.2',
+249 silly addNameRange     '2.17.1',
+249 silly addNameRange     '2.17.0',
+249 silly addNameRange     '2.16.2',
+249 silly addNameRange     '2.16.1',
+249 silly addNameRange     '2.16.0',
+249 silly addNameRange     '3.0.0-rc.2',
+249 silly addNameRange     '2.15.0',
+249 silly addNameRange     '2.14.5',
+249 silly addNameRange     '2.14.4',
+249 silly addNameRange     '2.14.3',
+249 silly addNameRange     '2.14.2',
+249 silly addNameRange     '3.0.0-rc.1',
+249 silly addNameRange     '2.14.1',
+249 silly addNameRange     '2.14.0',
+249 silly addNameRange     '2.13.1',
+249 silly addNameRange     '2.13.0',
+249 silly addNameRange     '2.12.0',
+249 silly addNameRange     '2.11.2',
+249 silly addNameRange     '2.11.1',
+249 silly addNameRange     '2.11.0',
+249 silly addNameRange     '2.10.1',
+249 silly addNameRange     '2.10.0',
+249 silly addNameRange     '2.9.2',
+249 silly addNameRange     '2.9.1',
+249 silly addNameRange     '2.9.0',
+249 silly addNameRange     '2.8.8',
+249 silly addNameRange     '2.8.7',
+249 silly addNameRange     '2.8.6',
+249 silly addNameRange     '2.8.5',
+249 silly addNameRange     '2.8.4',
+249 silly addNameRange     '2.8.3',
+249 silly addNameRange     '2.8.2',
+249 silly addNameRange     '2.8.1',
+249 silly addNameRange     '2.8.0',
+249 silly addNameRange     '2.7.11',
+249 silly addNameRange     '2.7.10',
+249 silly addNameRange     '2.7.9',
+249 silly addNameRange     '2.7.8',
+249 silly addNameRange     '2.7.7',
+249 silly addNameRange     '2.7.6',
+249 silly addNameRange     '2.7.5',
+249 silly addNameRange     '2.7.4',
+249 silly addNameRange     '2.7.3',
+249 silly addNameRange     '2.7.2',
+249 silly addNameRange     '2.7.1',
+249 silly addNameRange     '2.7.0',
+249 silly addNameRange     '2.6.2',
+249 silly addNameRange     '2.6.1',
+249 silly addNameRange     '2.6.0',
+249 silly addNameRange     '2.5.0',
+249 silly addNameRange     '2.4.6',
+249 silly addNameRange     '2.4.5',
+249 silly addNameRange     '2.4.4',
+249 silly addNameRange     '2.4.3',
+249 silly addNameRange     '2.4.2',
+249 silly addNameRange     '2.4.1',
+249 silly addNameRange     '2.4.0',
+249 silly addNameRange     '2.3.9',
+249 silly addNameRange     '2.3.8',
+249 silly addNameRange     '1.9.2',
+249 silly addNameRange     '2.3.7',
+249 silly addNameRange     '2.3.6',
+249 silly addNameRange     '2.3.5',
+249 silly addNameRange     '2.3.4',
+249 silly addNameRange     '1.9.1',
+249 silly addNameRange     '1.9.0',
+249 silly addNameRange     '2.3.3',
+249 silly addNameRange     '2.3.2',
+249 silly addNameRange     '2.3.1',
+249 silly addNameRange     '2.3.0',
+249 silly addNameRange     '2.2.2',
+249 silly addNameRange     '2.2.1',
+249 silly addNameRange     '2.2.0',
+249 silly addNameRange     '2.1.3',
+249 silly addNameRange     '1.8.7',
+249 silly addNameRange     '2.1.2',
+249 silly addNameRange     '2.1.1',
+249 silly addNameRange     '2.1.0',
+249 silly addNameRange     '1.8.6',
+249 silly addNameRange     '2.0.3',
+249 silly addNameRange     '2.0.2',
+249 silly addNameRange     '2.0.1',
+249 silly addNameRange     '2.0.0',
+249 silly addNameRange     '1.8.5',
+249 silly addNameRange     '1.8.4',
+249 silly addNameRange     '1.8.3',
+249 silly addNameRange     '1.8.2',
+249 silly addNameRange     '1.8.1',
+249 silly addNameRange     '1.8.0',
+249 silly addNameRange     '1.7.3',
+249 silly addNameRange     '1.7.2',
+249 silly addNameRange     '1.7.1',
+249 silly addNameRange     '1.7.0',
+249 silly addNameRange     '1.6.4',
+249 silly addNameRange     '1.6.3',
+249 silly addNameRange     '1.6.2',
+249 silly addNameRange     '1.6.1',
+249 silly addNameRange     '1.6.0',
+249 silly addNameRange     '1.5.2',
+249 silly addNameRange     '1.5.1',
+249 silly addNameRange     '1.5.0',
+249 silly addNameRange     '1.4.6',
+249 silly addNameRange     '1.4.5',
+249 silly addNameRange     '1.4.4',
+249 silly addNameRange     '1.4.3',
+249 silly addNameRange     '1.4.2',
+249 silly addNameRange     '1.4.1',
+249 silly addNameRange     '1.4.0',
+249 silly addNameRange     '1.3.0',
+249 silly addNameRange     '1.2.3',
+249 silly addNameRange     '1.2.2',
+249 silly addNameRange     '1.2.1',
+249 silly addNameRange     '1.2.0',
+249 silly addNameRange     '1.1.5',
+249 silly addNameRange     '1.1.4',
+249 silly addNameRange     '1.1.3',
+249 silly addNameRange     '1.1.2',
+249 silly addNameRange     '1.1.1',
+249 silly addNameRange     '1.1.0',
+249 silly addNameRange     '1.0.6',
+249 silly addNameRange     '1.0.5',
+249 silly addNameRange     '1.0.4',
+249 silly addNameRange     '1.0.3',
+249 silly addNameRange     '1.0.2',
+249 silly addNameRange     '1.0.1',
+249 silly addNameRange     '1.0.0',
+249 silly addNameRange     '0.5.10',
+249 silly addNameRange     '0.5.9',
+249 silly addNameRange     '0.5.8',
+249 silly addNameRange     '0.5.7',
+249 silly addNameRange     '0.5.6',
+249 silly addNameRange     '0.5.5',
+249 silly addNameRange     '0.5.4',
+249 silly addNameRange     '0.5.3',
+249 silly addNameRange     '0.5.2',
+249 silly addNameRange     '0.0.3',
+249 silly addNameRange     '0.5.1',
+249 silly addNameRange     '0.5.0',
+249 silly addNameRange     '0.4.0',
+249 silly addNameRange     '0.3.0',
+249 silly addNameRange     '0.2.7',
+249 silly addNameRange     '0.2.6',
+249 silly addNameRange     '0.2.5',
+249 silly addNameRange     '0.2.4',
+249 silly addNameRange     '0.2.3',
+249 silly addNameRange     '0.2.2',
+249 silly addNameRange     '0.2.1',
+249 silly addNameRange     '0.2.0',
+249 silly addNameRange     '0.1.0',
+249 silly addNameRange     '0.0.6',
+249 silly addNameRange     '0.0.5',
+249 silly addNameRange     '0.0.4',
+249 silly addNameRange     '0.0.2',
+249 silly addNameRange     '0.0.1' ] ]
+250 verbose addNamed [ 'connect', '2.29.2' ]
+251 verbose addNamed [ '2.29.2', '2.29.2' ]
+252 silly lockFile a3fcc10f-connect-2-29-2 connect@2.29.2
+253 verbose lock connect@2.29.2 C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\a3fcc10f-connect-2-29-2.lock
+254 silly lockFile e9a669bb-nect-download-connect-2-29-2-tgz http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz
+255 verbose lock http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\e9a669bb-nect-download-connect-2-29-2-tgz.lock
+256 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz',
+256 verbose addRemoteTarball   '8176bf024287c75712be782a71a4653d8efeabd7' ]
+257 info retry fetch attempt 1 at 14:05:19
+258 verbose fetch to= C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz
+259 http GET http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz
+260 http 200 http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz
+261 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz
+262 silly lockFile 1d11a3c6--cache-portscanner-1-0-0-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\portscanner\1.0.0\package
+263 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\portscanner\1.0.0\package C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\1d11a3c6--cache-portscanner-1-0-0-package.lock
+264 silly lockFile a227a968-18081-0-9342606465797871-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz
+265 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\a227a968-18081-0-9342606465797871-tmp-tgz.lock
+266 silly gunzTarPerm modes [ '755', '644' ]
+267 silly gunzTarPerm extractEntry package.json
+268 silly gunzTarPerm extractEntry .npmignore
+269 silly gunzTarPerm extractEntry README.md
+270 silly gunzTarPerm extractEntry LICENSE
+271 silly gunzTarPerm extractEntry lib/portscanner.js
+272 silly lockFile 1d11a3c6--cache-portscanner-1-0-0-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\portscanner\1.0.0\package
+273 silly lockFile 1d11a3c6--cache-portscanner-1-0-0-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\portscanner\1.0.0\package
+274 silly lockFile a227a968-18081-0-9342606465797871-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz
+275 silly lockFile a227a968-18081-0-9342606465797871-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318081-0.9342606465797871\tmp.tgz
+276 silly lockFile 0799297c-r-download-portscanner-1-0-0-tgz http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz
+277 silly lockFile 0799297c-r-download-portscanner-1-0-0-tgz http://registry.cnpmjs.org/portscanner/download/portscanner-1.0.0.tgz
+278 silly lockFile 3fadcf78-portscanner-1-0-0 portscanner@1.0.0
+279 silly lockFile 3fadcf78-portscanner-1-0-0 portscanner@1.0.0
+280 silly lockFile 124fc361-portscanner-1-0-0 portscanner@^1.0.0
+281 silly lockFile 124fc361-portscanner-1-0-0 portscanner@^1.0.0
+282 http 200 http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz
+283 http 200 http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz
+284 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz
+285 silly lockFile ae7e3569-connect-livereload-0-5-3-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect-livereload\0.5.3\package
+286 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect-livereload\0.5.3\package C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\ae7e3569-connect-livereload-0-5-3-package.lock
+287 silly lockFile 412724ef-18259-0-6011824468150735-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz
+288 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\412724ef-18259-0-6011824468150735-tmp-tgz.lock
+289 silly gunzTarPerm modes [ '755', '644' ]
+290 silly gunzTarPerm extractEntry package.json
+291 silly gunzTarPerm extractEntry .npmignore
+292 silly gunzTarPerm extractEntry README.md
+293 silly gunzTarPerm extractEntry LICENSE
+294 silly gunzTarPerm extractEntry index.js
+295 silly gunzTarPerm extractEntry .travis.yml
+296 silly gunzTarPerm extractEntry .editorconfig
+297 silly gunzTarPerm extractEntry .idea/.name
+298 silly gunzTarPerm extractEntry .idea/connect-livereload.iml
+299 silly gunzTarPerm extractEntry .idea/encodings.xml
+300 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz
+301 silly lockFile 22cc2ad6-npm-cache-connect-2-29-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect\2.29.2\package
+302 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect\2.29.2\package C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\22cc2ad6-npm-cache-connect-2-29-2-package.lock
+303 silly lockFile 7c624aec-19492-0-9323387863114476-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz
+304 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\7c624aec-19492-0-9323387863114476-tmp-tgz.lock
+305 silly gunzTarPerm modes [ '755', '644' ]
+306 silly gunzTarPerm extractEntry package.json
+307 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+308 silly gunzTarPerm extractEntry LICENSE
+309 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+310 silly gunzTarPerm extractEntry index.js
+311 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry History.md
+313 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+314 silly gunzTarPerm extractEntry Readme.md
+315 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+316 silly gunzTarPerm extractEntry lib/cache.js
+317 silly gunzTarPerm modified mode [ 'lib/cache.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry lib/connect.js
+319 silly gunzTarPerm modified mode [ 'lib/connect.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry lib/index.js
+321 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry lib/patch.js
+323 silly gunzTarPerm modified mode [ 'lib/patch.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry lib/proto.js
+325 silly gunzTarPerm modified mode [ 'lib/proto.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry lib/utils.js
+327 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+329 silly gunzTarPerm modified mode [ 'lib/middleware/basicAuth.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+331 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+333 silly gunzTarPerm modified mode [ 'lib/middleware/favicon.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry lib/middleware/json.js
+335 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry lib/middleware/limit.js
+337 silly gunzTarPerm modified mode [ 'lib/middleware/limit.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry lib/middleware/directory.js
+339 silly gunzTarPerm modified mode [ 'lib/middleware/directory.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+341 silly gunzTarPerm modified mode [ 'lib/middleware/methodOverride.js', 438, 420 ]
+342 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+343 silly gunzTarPerm modified mode [ 'lib/middleware/multipart.js', 438, 420 ]
+344 silly gunzTarPerm extractEntry lib/middleware/query.js
+345 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+346 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+347 silly gunzTarPerm modified mode [ 'lib/middleware/responseTime.js', 438, 420 ]
+348 silly gunzTarPerm extractEntry lib/middleware/session.js
+349 silly gunzTarPerm modified mode [ 'lib/middleware/session.js', 438, 420 ]
+350 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+351 silly gunzTarPerm modified mode [ 'lib/middleware/csrf.js', 438, 420 ]
+352 silly gunzTarPerm extractEntry lib/middleware/static.js
+353 silly gunzTarPerm modified mode [ 'lib/middleware/static.js', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+355 silly gunzTarPerm modified mode [ 'lib/middleware/cookieSession.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+357 silly gunzTarPerm modified mode [ 'lib/middleware/staticCache.js', 438, 420 ]
+358 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+359 silly gunzTarPerm modified mode [ 'lib/middleware/cookieParser.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+361 silly gunzTarPerm modified mode [ 'lib/middleware/timeout.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry lib/middleware/compress.js
+363 silly gunzTarPerm modified mode [ 'lib/middleware/compress.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+365 silly gunzTarPerm modified mode [ 'lib/middleware/urlencoded.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+367 silly gunzTarPerm modified mode [ 'lib/middleware/bodyParser.js', 438, 420 ]
+368 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+369 silly gunzTarPerm modified mode [ 'lib/middleware/vhost.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry lib/middleware/logger.js
+371 silly gunzTarPerm modified mode [ 'lib/middleware/logger.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry lib/public/favicon.ico
+373 silly gunzTarPerm modified mode [ 'lib/public/favicon.ico', 438, 420 ]
+374 http 200 http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+375 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+376 silly gunzTarPerm extractEntry .idea/libraries/connect_livereload_node_modules.xml
+377 silly gunzTarPerm extractEntry .idea/modules.xml
+378 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+379 silly gunzTarPerm extractEntry .idea/vcs.xml
+380 silly gunzTarPerm extractEntry .idea/workspace.xml
+381 silly lockFile ae7e3569-connect-livereload-0-5-3-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect-livereload\0.5.3\package
+382 silly lockFile ae7e3569-connect-livereload-0-5-3-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect-livereload\0.5.3\package
+383 silly lockFile 412724ef-18259-0-6011824468150735-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz
+384 silly lockFile 412724ef-18259-0-6011824468150735-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916318259-0.6011824468150735\tmp.tgz
+385 silly lockFile 80964703-oad-connect-livereload-0-5-3-tgz http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz
+386 silly lockFile 80964703-oad-connect-livereload-0-5-3-tgz http://registry.cnpmjs.org/connect-livereload/download/connect-livereload-0.5.3.tgz
+387 silly lockFile cf0a7468-connect-livereload-0-5-3 connect-livereload@0.5.3
+388 silly lockFile cf0a7468-connect-livereload-0-5-3 connect-livereload@0.5.3
+389 silly lockFile 0eef2fe7-connect-livereload-0-5-0 connect-livereload@^0.5.0
+390 silly lockFile 0eef2fe7-connect-livereload-0-5-0 connect-livereload@^0.5.0
+391 verbose tar unpack C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+392 silly lockFile beec1eea-ng-npm-cache-async-0-9-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\async\0.9.2\package
+393 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\async\0.9.2\package C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\beec1eea-ng-npm-cache-async-0-9-2-package.lock
+394 silly lockFile 133d10c7-87472-0-5440802669618279-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+395 verbose lock tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\133d10c7-87472-0-5440802669618279-tmp-tgz.lock
+396 silly gunzTarPerm modes [ '755', '644' ]
+397 silly gunzTarPerm extractEntry package.json
+398 silly gunzTarPerm extractEntry README.md
+399 silly gunzTarPerm extractEntry LICENSE
+400 silly gunzTarPerm extractEntry component.json
+401 silly gunzTarPerm extractEntry .travis.yml
+402 silly gunzTarPerm extractEntry bower.json
+403 silly gunzTarPerm extractEntry lib/async.js
+404 silly gunzTarPerm extractEntry support/sync-package-managers.js
+405 silly lockFile beec1eea-ng-npm-cache-async-0-9-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\async\0.9.2\package
+406 silly lockFile beec1eea-ng-npm-cache-async-0-9-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\async\0.9.2\package
+407 silly lockFile 133d10c7-87472-0-5440802669618279-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+408 silly lockFile 133d10c7-87472-0-5440802669618279-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916287472-0.5440802669618279\tmp.tgz
+409 silly lockFile 22cc2ad6-npm-cache-connect-2-29-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect\2.29.2\package
+410 silly lockFile 22cc2ad6-npm-cache-connect-2-29-2-package tar://C:\Users\Jasper.Qiu\AppData\Roaming\npm-cache\connect\2.29.2\package
+411 silly lockFile 7c624aec-19492-0-9323387863114476-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz
+412 silly lockFile 7c624aec-19492-0-9323387863114476-tmp-tgz tar://C:\Users\Jasper.Qiu\AppData\Local\Temp\npm-1268-mjsCKbvI\1433916319492-0.9323387863114476\tmp.tgz
+413 silly lockFile f238bb86-g-async-download-async-0-9-2-tgz http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+414 silly lockFile f238bb86-g-async-download-async-0-9-2-tgz http://registry.cnpmjs.org/async/download/async-0.9.2.tgz
+415 silly lockFile c32a6c4e-async-0-9-2 async@0.9.2
+416 silly lockFile c32a6c4e-async-0-9-2 async@0.9.2
+417 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+418 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+419 silly lockFile e9a669bb-nect-download-connect-2-29-2-tgz http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz
+420 silly lockFile e9a669bb-nect-download-connect-2-29-2-tgz http://registry.cnpmjs.org/connect/download/connect-2.29.2.tgz
+421 silly lockFile a3fcc10f-connect-2-29-2 connect@2.29.2
+422 silly lockFile a3fcc10f-connect-2-29-2 connect@2.29.2
+423 silly lockFile 4b24c20c-connect-2-27-1 connect@^2.27.1
+424 silly lockFile 4b24c20c-connect-2-27-1 connect@^2.27.1
+425 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+426 info trying registry request attempt 3 at 14:06:38
+427 verbose etag "6VBB5B3JNJSFTUSVND7LS1XI0"
+428 http GET http://registry.cnpmjs.org/opn
+429 silly registry.get cb [ 304, undefined ]
+430 verbose etag opn from cache
+431 silly addNameRange number 2 { name: 'opn', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+432 silly addNameRange versions [ 'opn', [ '0.1.0', '0.1.1' ] ]
+433 silly lockFile 3ddbaf46-opn-1-0-0 opn@^1.0.0
+434 silly lockFile 3ddbaf46-opn-1-0-0 opn@^1.0.0
+435 verbose about to build C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect
+436 info C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules\grunt-contrib-connect unbuild
+437 info preuninstall grunt-contrib-connect@0.10.1
+438 info uninstall grunt-contrib-connect@0.10.1
+439 verbose true,C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules,C:\Users\Jasper.Qiu\WebstormProjects\d3Lab\node_modules unbuild grunt-contrib-connect@0.10.1
+440 info postuninstall grunt-contrib-connect@0.10.1
+441 error notarget No compatible version found: opn@'>=1.0.0-0 <2.0.0-0'
+441 error notarget Valid install targets:
+441 error notarget ["0.1.0","0.1.1"]
+441 error notarget
+441 error notarget This is most likely not a problem with npm itself.
+441 error notarget In most cases you or one of your dependencies are requesting
+441 error notarget a package version that doesn't exist.
+442 error System Windows_NT 6.1.7601
+443 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-connect" "--save-dev"
+444 error cwd C:\Users\Jasper.Qiu\WebstormProjects\d3Lab
+445 error node -v v0.10.28
+446 error npm -v 1.4.9
+447 error code ETARGET
+448 verbose exit [ 1, true ]
